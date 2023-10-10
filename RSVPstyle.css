@@ -36,6 +36,15 @@ a {
 a:hover{
 	color: pink;
 }
+
+a span {
+	color: #f16d82;
+}
+
+a span:hover{
+	color: pink;
+}
+
 .topnav {
 	background-color: #004b84;
 	position: relative;
