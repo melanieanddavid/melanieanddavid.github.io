@@ -1,0 +1,140 @@
+html, body{
+	height:  97%;
+}
+
+
+@font-face {
+    font-family: 'VerlagBold';
+    font-style: bold;
+    font-weight: 400;
+    src: local('Verlag'), url('https://fonts.cdnfonts.com/s/38686/VerlagBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'PeterQ';
+    font-style: normal;
+    font-weight: 325;
+    src: local('Verlag'), url('https://fonts.cdnfonts.com/s/101086/KeeshyaSellaras-qZgBx.woff') format('woff');
+}
+@font-face {
+    font-family: 'Eurof';
+    font-style: normal;
+    font-weight: 250;
+    src: local('Verlag'), url('https://fonts.cdnfonts.com/s/8583/eurof56.woff') format('woff');
+}
+
+@font-face {
+	font-family:  'Manrope';
+	font-style: normal;
+	src: url('Manrope-ExtraLight.woff') format('woff');
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: pink;
+}
+.topnav {
+	background-color: #004b84;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	font-size: 50px;
+	font-family: Manrope;
+	margin-top: -8px;
+
+}
+
+
+h1 {
+	background-image: url('https://i.ibb.co/42NKnHQ/Melanie-David.jpg');
+	background-size: 39vw;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: top;
+	text-align: center; 
+	margin-left: 0px;
+	line-height: 110%;
+	font-size: 8vw; 
+	position: relative; 
+	margin-top: 35px; 
+	margin-left: 0px;
+	font-family: PeterQ;
+}
+
+h2{
+	font-size: 5vw;
+	font-family: VerlagBold;
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-weight: bold;
+}
+
+body{
+text-align: center; 
+margin-right: 0px; 
+margin-left: 0px; 
+font-family: Eurof; 
+font-size:3vw;
+}
+
+ul{
+		list-style-type: none;
+		padding: 0; 
+		font-family: Eurof;
+		line-height: 110%;
+	}
+
+mark span {
+	color:  white; 
+	background-color: #7f7f7f; 
+	font-family: PeterQ; 
+	text-align: left;
+}
+
+@media screen and (max-width: 576px){
+
+	.topnav {
+
+	font-size: 10vw;
+	margin-top: -10px;
+
+}
+	h1{
+		background-image: url('https://i.ibb.co/42NKnHQ/Melanie-David.jpg');
+		background-size: 65vw;
+		background-repeat: no-repeat;
+		background-position-x: center;
+		background-position-y: top;
+		margin-left: 0px;
+		margin-top: 10px;
+		left: 0px;
+		padding: 0;
+		line-height: 100%;
+		font-size: 14.5vw;
+		text-align: center;
+		font-family: PeterQ;
+	}
+	h2{
+		margin-left: 0px;
+		margin-right: 0px;
+		font-size: 5.75vw;
+		text-align: center;
+	}
+	ul{
+		margin-right: 15px;
+		margin-left: 15px;
+		text-align: center;
+	}
+	body {
+	font-family: Eurof;
+	margin-right: 0px; 
+	margin-left: 0px; 
+	font-size: 5vw;
+			text-align: center;
+	    }
+}
+
