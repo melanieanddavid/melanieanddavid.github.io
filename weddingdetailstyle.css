@@ -29,7 +29,6 @@ html, body{
 a {
 	color: white;
 	text-decoration: none;
-
 }
 
 a span {
@@ -37,12 +36,12 @@ a span {
 }
 
 a span:hover{
-	color: pink;
+	color: #af4f53;
 }
 
 
 a:hover{
-	color: pink;
+	color: #af4f53;
 }
 .topnav {
 	background-color: #004b84;
