@@ -54,7 +54,7 @@ a:hover{
 	font-size: 3vw;
   background-color: #1d453c;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-  position: fixed;
+  position: relative;
   width: 100%;
   z-index: 3;
 }
@@ -256,7 +256,7 @@ mark span {
 		font-family: Manrope;
 	}
 	ul{
-		font-family: Eurof;
+		font-family: Manrope;
 		line-height: 100%;
 		padding: 0;
 		margin-left: 0px;
