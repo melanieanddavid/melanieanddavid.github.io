@@ -46,7 +46,15 @@ a {
 	text-decoration: none;
 }
 
-a:hover{
+a span {
+	color: #af4f53;
+}
+
+a span:hover{
+	color: pink;
+}
+
+a:hover	{
 	color: #af4f53;
 }
 
@@ -263,7 +271,7 @@ mark span {
 		margin-right: 0px;
     	list-style-type: none;
 		text-align: center;
-		font-size: 4vw;
+		font-size: 5.5vw;
 		top: 0px;
 		left:  1px;
 		right: 1px;

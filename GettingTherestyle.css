@@ -29,11 +29,10 @@ html, body{
 a {
 	color: white;
 	text-decoration: none;
-
 }
 
 a span {
-	color: #f16d82;
+	color: #af4f53;
 }
 
 a span:hover{
@@ -41,10 +40,8 @@ a span:hover{
 }
 
 a:hover	{
-	color: pink;
+	color: #af4f53;
 }
-
-
 .header {
 	font-size: 3vw;
   background-color: #1d453c;
@@ -149,7 +146,6 @@ a:hover	{
 }
 
 
-
 body {
 	text-align: left; 
 	padding: 0;
@@ -172,7 +168,7 @@ h1 {
 h2 {
 	line-height: 100%;
 	margin-right: 15vw;
-	color: #004b84;
+	color: #1d453c;
 	text-align: left; 
 	font-size: 2.5vw; 
 	position: relative; 
@@ -182,7 +178,7 @@ h2 {
 }
 h3 {
 	line-height: 110%;
-	color: #004b84;
+	color: #1d453c;
 	text-align: left; 
 	font-size: 1.8vw; 
 	position: relative;
@@ -209,6 +205,7 @@ mark span {
 	text-align: left;
 }
 
+
 @media screen and (min-width: 48em) {
 
 	.header {
@@ -231,6 +228,8 @@ mark span {
     display: none;
   }
 }
+
+
 
 
 @media screen and (max-width: 576px){
