@@ -1,6 +1,8 @@
-html, body{
-	height:  97%;
+html,body {
+    margin:0;
+    padding:0;
 }
+
 
 
 @font-face {
@@ -33,28 +35,122 @@ a {
 	text-decoration: none;
 }
 
-a:hover{
-	color: af4f53;
-}
-
 a span {
-	color: #f16d82;
+	color: #af4f53;
 }
 
 a span:hover{
-	color: af4f53;
+	color: pink;
 }
 
-.topnav {
-	background-color: #004b84;
-	position: relative;
-	text-align: center;
-	overflow: hidden;
-	font-size: 50px;
-	font-family: Manrope;
-	margin-top: -8px;
-
+a:hover	{
+	color: #af4f53;
 }
+
+
+.header {
+	font-size: 3vw;
+  background-color: #1d453c;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: relative;
+  width: 100%;
+  z-index: 3;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #1d453c;
+}
+
+.header li a {
+  display: block;
+  padding: 10px 10px;
+  border-right: 1px solid #f4f4f4;
+  text-decoration: none;
+}
+
+.header li a:hover {
+  background-color: #f4f4f4;
+}
+
+.header .logo {
+  display: block;
+  float: left;
+  font-size: 5vw;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+.header .menu-icon {
+  cursor: pointer;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: white;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: white;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
 
 
 h1 {
@@ -90,13 +186,15 @@ font-family: Eurof;
 font-size:3vw;
 }
 
-ul{
-		list-style-type: none;
-		padding: 0; 
-		font-family: Eurof;
-		line-height: 110%;
-	}
-
+ul {
+	text-align:left;
+	margin-left: 75px;
+	font-family: Manrope;
+	list-style-type: none;
+	padding: 0px;	
+	margin-right: 75vw; 
+	line-height: 110%;
+}
 mark span {
 	color:  white; 
 	background-color: #7f7f7f; 
@@ -104,14 +202,32 @@ mark span {
 	text-align: left;
 }
 
+@media screen and (min-width: 48em) {
+
+	.header {
+		font-size: 2.2vw;
+		font-family: Manrope;
+
+	}
+  .header li {
+  		display: inline-block;
+  }
+  .header li a {
+    padding: 10px 20px;
+  }
+  .header .menu {
+  	text-align: center;
+    clear: none;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+
 @media screen and (max-width: 576px){
 
-	.topnav {
-
-	font-size: 10vw;
-	margin-top: -10px;
-
-}
 	h1{
 		background-image: url('https://i.ibb.co/42NKnHQ/Melanie-David.jpg');
 		background-size: 65vw;
@@ -134,9 +250,18 @@ mark span {
 		text-align: center;
 	}
 	ul{
-		margin-right: 15px;
-		margin-left: 15px;
+		font-family: Manrope;
+		line-height: 100%;
+		padding: 0;
+		margin-left: 0px;
+		margin-right: 0px;
+    	list-style-type: none;
 		text-align: center;
+		font-size: 5.5vw;
+		top: 0px;
+		left:  1px;
+		right: 1px;
+		line-height: 120%;
 	}
 	body {
 	font-family: Eurof;

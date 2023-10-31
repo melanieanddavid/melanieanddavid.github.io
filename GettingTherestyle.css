@@ -1,5 +1,6 @@
-html, body{
-	height:  97%;
+html,body {
+    margin:0;
+    padding:0;
 }
 
 @font-face {
@@ -169,6 +170,8 @@ h2 {
 	line-height: 100%;
 	margin-right: 15vw;
 	color: #1d453c;
+	text-decoration: underline;
+	margin-bottom: -2px;
 	text-align: left; 
 	font-size: 2.5vw; 
 	position: relative; 
@@ -178,23 +181,23 @@ h2 {
 }
 h3 {
 	line-height: 110%;
+	margin-right: 15vw;
 	color: #1d453c;
 	text-align: left; 
 	font-size: 1.8vw; 
 	position: relative;
 	margin-top: 0px; 
-	margin-left: 5vw;
-	margin-right: 10vw;
+	margin-left: 75px;
 	font-family: Manrope;
 
 }
 ul {
 	text-align:left;
-	margin-left: 75px;
+	margin-left: 5vw;
 	font-family: Manrope;
 	list-style-type: none;
 	padding: 0px;	
-	margin-right: 75vw; 
+	margin-right: 10vw; 
 	line-height: 110%;
 }
 
@@ -236,11 +239,13 @@ mark span {
 
 
 		    iframe {
+		margin-top: -100px;
+		margin-left: -25px;
   		transform: scale(0.55, 0.55);
-  		height: 1000px;
-  		width: 1000px;
-  		transform-origin: left;
-
+  		height: 500px;
+  		width: 500px;
+		
+		transform-origin:center;
 		}
 	body{
 		margin-top: 0px;
@@ -279,7 +284,7 @@ mark span {
 	margin-right: 15px;
 	margin-top: 10px;
 	line-height: 100%;
-	color: #004b84;
+	color: #1d453c;
 	text-align: center; 
 	font-size: 5.5vw; 
 	font-family: Eurof;
@@ -289,7 +294,7 @@ mark span {
 	margin-right: 15px;
 	margin-top: 10px;
 	line-height: 110%;
-	color: #004b84;
+	color: #1d453c;
 	text-align: center; 
 	font-size: 4vw; 
 	font-family: Manrope;
