@@ -94,6 +94,16 @@ a:hover	{
   text-decoration: none;
 }
 
+ .logo-image{
+ 	float: left;
+ 	padding: 17px 20px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
 .header .menu {
   clear: both;
   max-height: 0;
@@ -163,6 +173,8 @@ a:hover	{
 
 
 
+
+
 body {
 	margin-left: 0;
 	margin-right: 0;
@@ -228,6 +240,10 @@ mark span {
 
 	.header .logo {
 	display: none;
+}
+
+ .logo-image{
+display:none;
 }
 
 	.header {
