@@ -240,10 +240,10 @@ mark span {
 
 		    iframe {
 		margin-top: -100px;
-		margin-left: -25px;
+		margin-left: -30vw;
   		transform: scale(0.55, 0.55);
   		height: 500px;
-  		width: 500px;
+  		width: 770px;
 		
 		transform-origin:center;
 		}
