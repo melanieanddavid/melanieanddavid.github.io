@@ -90,18 +90,16 @@ a:hover	{
   display: block;
   float: left;
   font-size: 5vw;
-  padding: 10px 20px;
   text-decoration: none;
 }
 
  .logo-image{
  	float: left;
- 	padding: 4vw 4vw;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
+  	padding: 28px 20px;
+  	position: relative;
+  	border-radius: 50%;
     overflow: hidden;
-    margin-top: -6px;
+
 }
 
 .header .menu {
