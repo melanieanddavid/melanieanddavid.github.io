@@ -146,6 +146,15 @@ a:hover	{
   top: 0;
 }
 
+ .logo-image{
+ 	float: left;
+  	padding: 18px 20px;
+  	position: relative;
+  	border-radius: 50%;
+    overflow: hidden;
+
+}
+
 
 body {
 	text-align: left; 
@@ -230,7 +239,15 @@ mark span {
   .header .menu-icon {
     display: none;
   }
+
+   .logo-image{
+display:none;
 }
+
+}
+
+
+
 
 
 
