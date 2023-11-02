@@ -1,6 +1,8 @@
 html,body {
     margin:0;
     padding:0;
+    height:  97%;
+
 }
 
 @font-face {
@@ -43,6 +45,7 @@ a span:hover{
 a:hover	{
 	color: #af4f53;
 }
+
 .header {
 	font-size: 3vw;
   background-color: #1d453c;
@@ -75,8 +78,15 @@ a:hover	{
   display: block;
   float: left;
   font-size: 5vw;
-  padding: 10px 20px;
   text-decoration: none;
+}
+
+ .logo-image{
+ 	float: left;
+  	padding: 18px 25px;
+  	position: relative;
+  	border-radius: 50%;
+    overflow: hidden;
 }
 
 .header .menu {
@@ -145,16 +155,6 @@ a:hover	{
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
-
- .logo-image{
- 	float: left;
-  	padding: 18px 20px;
-  	position: relative;
-  	border-radius: 50%;
-    overflow: hidden;
-
-}
-
 
 body {
 	text-align: left; 
@@ -248,13 +248,11 @@ display:none;
 
 
 
-
-
-
-
 @media screen and (max-width: 576px){
 
-
+	img{
+		width: 70%;
+	}
 		    iframe {
 		margin-top: -100px;
 		margin-left: -30vw;

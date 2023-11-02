@@ -241,6 +241,10 @@ mark span {
 
 @media screen and (max-width: 576px){
 
+		img{
+		width: 70%;
+	}
+
 	h1{
 		background-image: url('https://i.ibb.co/ZK24Yky/melaniedavidlogo.png');
 		background-size: 50vw;

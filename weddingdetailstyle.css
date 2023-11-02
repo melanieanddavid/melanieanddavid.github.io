@@ -149,7 +149,7 @@ a:hover	{
 
  .logo-image{
  	float: left;
-  	padding: 18px 20px;
+  	padding: 18px 25px;
   	position: relative;
   	border-radius: 50%;
     overflow: hidden;
@@ -254,6 +254,10 @@ display:none;
 
 
 @media screen and (max-width: 576px){
+
+			img{
+		width: 70%;
+	}
 
 
 		    iframe {
