@@ -136,7 +136,7 @@ a:hover	{
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 240px;
+  max-height: 500px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -286,11 +286,11 @@ display:none;
 	}
 	h1{
 		margin-left: 0px;
-		margin-top: 10px;
+		margin-top: 0px;
 		left: 0px;
 		padding: 0;
 		line-height: 100%;
-		font-size: 14.5vw;
+		font-size: 20vw;
 		text-align: center;
 		font-family: PeterQ;
 	}
