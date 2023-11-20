@@ -317,7 +317,9 @@ display:none;
 	line-height: 100%;
 	color: #1d453c;
 	text-align: center; 
-	font-size: 5vw; 
+	font-size: 5vw;
+		padding-left: 12vw;
+	padding-right: 12vw; 
 	font-family: Butler;
 	}
 		h3 {
