@@ -29,6 +29,17 @@ html,body {
 	src: url('Manrope-ExtraLight.woff') format('woff');
 }
 
+@font-face {
+	font-family:'Butler';
+	font-style: normal;
+	src: url('https://fonts.cdnfonts.com/s/16241/Butler_Light.woff') format('woff');
+}
+@font-face {
+	font-family:'BulterBold';
+	font-style: bold;
+	src: url('https://fonts.cdnfonts.com/s/16241/Butler_Bold.woff') format('woff');
+}
+
 
 a {
 	color: white;
@@ -189,9 +200,9 @@ h2 {
 	font-size: 2.5vw; 
 	position: relative; 
 	margin-top: 0px; 
-	font-family: Manrope;
-	padding-left: 11vw;
-	padding-right: 11vw;
+	font-family: Butler;
+	padding-left: 20vw;
+	padding-right: 20vw;
 }
 h3 {
 	line-height: 50%;
@@ -307,7 +318,7 @@ display:none;
 	color: #1d453c;
 	text-align: center; 
 	font-size: 5vw; 
-	font-family: Manrope;
+	font-family: Butler;
 	}
 		h3 {
 	margin-left: 0px;
