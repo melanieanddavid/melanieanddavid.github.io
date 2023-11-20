@@ -23,10 +23,17 @@ html,body {
     src: local('Verlag'), url('https://fonts.cdnfonts.com/s/8583/eurof56.woff') format('woff');
 }
 @font-face {
-	font-family:  'Manrope';
+	font-family:'Butler';
 	font-style: normal;
-	src: url('Manrope-ExtraLight.woff') format('woff');
+	src: url('https://fonts.cdnfonts.com/s/16241/Butler_Light.woff') format('woff');
 }
+@font-face {
+	font-family:'BulterBold';
+	font-style: bold;
+	src: url('https://fonts.cdnfonts.com/s/16241/Butler_Bold.woff') format('woff');
+}
+
+
 
 a {
 	color: white;
@@ -163,7 +170,6 @@ body {
 	text-align: left; 
 	padding: 0;
 	font-size: 1.50vw;
-	background-image: url('https://i.ibb.co/pbhHQBS/bordercastle.jpg');
 	background-size: 30vw;
 	background-repeat: no-repeat;
 	background-blend-mode: exclusion;
@@ -177,44 +183,54 @@ body {
 h1 {
 	font-family: PeterQ;
 	line-height: 110%;
-	text-align: left; 
+	text-align:  center; 
 	font-size: 7vw; 
 	position: relative; 
 	margin-top: 0px; 
-	margin-left: 180px;
 }
 h2 {
-	line-height: 110%;
-	margin-right: 15vw;
-	color: #1d453c;
-	text-align: left; 
-	font-size: 2.5vw; 
-	position: relative; 
-	margin-top: 0px; 
-	margin-left: 75px;
-	font-family: Eurof;
-}
-h3 {
 	line-height: 100%;
 	color: #1d453c;
-	text-align: left; 
-	font-size: 1.8vw; 
+	text-align: center; 
+	font-size: 2.5vw; 
 	position: relative;
 	margin-top: 0px; 
-	margin-left: 5vw;
-	margin-left: 75px;
-	font-family: Manrope;
+	margin-left: 250px;
+	margin-right: 250px;
+	font-family: Butler;
+}
+h2 span{
+	font-family: ButlerBold;
+	font-size: 2.8vw;
+}
+h3 {
+	line-height: 120%;
+	color: #1d453c;
+	text-align: center; 
+	font-size: 2.5vw; 
+	position: relative;
+	margin-top: 0px; 
+	margin-left: 300px;
+	margin-right: 300px;
+	font-family: Butler;
 
 }
+h3 span{
+	font-family: ButlerBold;
+}
 ul {
-	text-align:left;
+	text-align: center;
 	font-size: 2vw;
 	margin-left: 75px;
 	font-family: Manrope;
 	list-style-type: none;
 	padding: 0px;	
-	margin-right: 75vw; 
+	margin-right: 0vw;
+	margin-left: 0vw;  
 	line-height: 110%;
+}
+ol{
+	list-style-type:none
 }
 
 mark span {
@@ -267,14 +283,17 @@ display:none;
   		transform-origin: left;
 
 		}
-	body{
-		margin-top: 0px;
-		margin-left: 0px;
-		margin-right: 0px;
-		background-image:  none;
-		margin: 0px;
-		font-family: Eurof;
-	}
+	body {
+	font-family: Eurof;
+	margin-right: 0px; 
+	margin-left: 0px; 
+	font-size: 5vw;
+	text-align: center;
+
+	    }
+	ol{
+	list-style-type:none
+}
 	ul{
 		font-family: Manrope;
 		line-height: 100%;
@@ -300,25 +319,28 @@ display:none;
 		font-family: PeterQ;
 	}
 	h2 {
-	margin-left: 15px;
-	margin-right: 15px;
-	margin-top: 10px;
-	line-height: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 5.75vw;
+	text-align: center;
 	color: #1d453c;
-	text-align: center; 
-	font-size: 5.5vw; 
-	font-family: Eurof;
 	}
 		h3 {
-	margin-left: 15px;
-	margin-right: 15px;
-	margin-top: 10px;
-	line-height: 110%;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 5vw;
+	text-align: center;
 	color: #1d453c;
-	text-align: center; 
-	font-size: 4vw; 
-	font-family: Manrope;
 	}
 	background-image { display: none; }
 	    }
+
+	h2 span{
+	font-family: ButlerBold;
+	font-size: 6vw;
+}
 }
