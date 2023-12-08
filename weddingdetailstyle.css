@@ -201,8 +201,9 @@ h2 {
 }
 h2 span{
 	font-family: ButlerBold;
-	font-size: 2.8vw;
-}
+	font-size: 3vw;}
+
+
 h3 {
 	line-height: 120%;
 	color: #1d453c;
@@ -273,6 +274,8 @@ display:none;
 
 
 @media screen and (max-width: 576px){
+	background-image { display: none; }
+
 			img{
 		width: 70%;
 	}
@@ -336,11 +339,9 @@ display:none;
 	text-align: center;
 	color: #1d453c;
 	}
-	background-image { display: none; }
-	    }
-
-	h2 span{
+		h2 span{
 	font-family: ButlerBold;
 	font-size: 6vw;
+}
 }
 }
