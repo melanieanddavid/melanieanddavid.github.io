@@ -206,7 +206,7 @@ h3 {
 	text-align: left; 
 	font-size: 1.8vw; 
 	position: relative;
-	margin-top: 0px; 
+	margin-top: 10px; 
 	margin-left: 75px;
 	font-family: Butler;
 
@@ -267,10 +267,10 @@ display:none;
 	}
 	iframe {
 		margin-top: -70px;
-		margin-left: -15vw;
+		margin-left: -22vw;
   		transform: scale(0.55, 0.55);
-  		height: 100vw;
-  		width: 120vw;
+  		height: 120vw;
+  		width: 140vw;
 		transform-origin:center;
 		}
 	body{
