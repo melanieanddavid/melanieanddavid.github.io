@@ -29,6 +29,17 @@ html,body {
 	src: url('Manrope-ExtraLight.woff') format('woff');
 }
 
+@font-face {
+	font-family:'Butler';
+	font-style: normal;
+	src: url('https://fonts.cdnfonts.com/s/16241/Butler_Light.woff') format('woff');
+}
+@font-face {
+	font-family:'BulterBold';
+	font-style: bold;
+	src: url('https://fonts.cdnfonts.com/s/16241/Butler_Bold.woff') format('woff');
+}
+
 a {
 	color: white;
 	text-decoration: none;
@@ -186,7 +197,7 @@ h2 {
 	position: relative; 
 	margin-top: 0px; 
 	margin-left: 75px;
-	font-family: Eurof;
+	font-family: ButlerBold;
 }
 h3 {
 	line-height: 110%;
@@ -197,7 +208,7 @@ h3 {
 	position: relative;
 	margin-top: 0px; 
 	margin-left: 75px;
-	font-family: Manrope;
+	font-family: Butler;
 
 }
 ul {
@@ -250,16 +261,16 @@ display:none;
 
 @media screen and (max-width: 576px){
 
+
 	img{
 		width: 70%;
 	}
-		    iframe {
-		margin-top: -100px;
-		margin-left: -30vw;
+	iframe {
+		margin-top: -70px;
+		margin-left: -15vw;
   		transform: scale(0.55, 0.55);
-  		height: 500px;
-  		width: 770px;
-		
+  		height: 450px;
+  		width: 450px;
 		transform-origin:center;
 		}
 	body{
@@ -302,7 +313,6 @@ display:none;
 	color: #1d453c;
 	text-align: center; 
 	font-size: 5.5vw; 
-	font-family: Eurof;
 	}
 		h3 {
 	margin-left: 15px;
@@ -312,7 +322,6 @@ display:none;
 	color: #1d453c;
 	text-align: center; 
 	font-size: 4vw; 
-	font-family: Manrope;
 	}
 	background-image { display: none; }
 	    }
