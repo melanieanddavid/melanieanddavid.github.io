@@ -269,8 +269,8 @@ display:none;
 		margin-top: -70px;
 		margin-left: -15vw;
   		transform: scale(0.55, 0.55);
-  		height: 450px;
-  		width: 450px;
+  		height: 100vw;
+  		width: 120vw;
 		transform-origin:center;
 		}
 	body{
