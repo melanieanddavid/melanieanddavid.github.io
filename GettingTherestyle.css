@@ -177,6 +177,10 @@ body {
 	margin-right: 0;
 }
 
+	iframe {
+		margin-top: -50px;
+		margin-left: 20vw;
+}
 h1 {
 	line-height: 110%;
 	text-align: left; 
