@@ -77,7 +77,7 @@ a:hover	{
 .header li a {
   display: block;
   padding: 10px 10px;
-  border-right: 1px solid #f4f4f4;
+  border-right: 0px solid #f4f4f4;
   text-decoration: none;
 }
 
@@ -175,6 +175,14 @@ body {
 	margin-top: 0px;
 	margin-left: 0;
 	margin-right: 0;
+	background-image:  url('https://i.ibb.co/hFmvfvw/boturich2.png');
+	border: 10px;
+	background-repeat: no-repeat;
+	background-blend-mode: darken;
+	background-size: 30vw;
+	background-position-x: 52vw;
+	background-position-y: 9vw;
+
 }
 
 	iframe {
@@ -281,9 +289,9 @@ display:none;
 		margin-top: 0px;
 		margin-left: 0px;
 		margin-right: 0px;
-		background-image:  none;
 		margin: 0px;
 		font-family: Eurof;
+		background-image:  none;
 	}
 	ul{
 		font-family: manrope;

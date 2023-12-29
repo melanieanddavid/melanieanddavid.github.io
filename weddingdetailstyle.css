@@ -73,7 +73,7 @@ a:hover	{
 .header li a {
   display: block;
   padding: 10px 10px;
-  border-right: 1px solid #f4f4f4;
+  border-right: 0px solid #f4f4f4;
   text-decoration: none;
 }
 
