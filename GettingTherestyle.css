@@ -186,8 +186,8 @@ body {
 }
 
 	iframe {
-		margin-top: -50px;
-		margin-left: 20vw;
+		margin-top: 1vw;
+		margin-left: 5vw;
 }
 h1 {
 	line-height: 110%;
@@ -271,7 +271,7 @@ display:none;
 
 
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 768px){
 
 
 	img{
