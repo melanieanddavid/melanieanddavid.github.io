@@ -339,6 +339,9 @@ display:none;
 	text-align: center; 
 	font-size: 4vw; 
 	}
+		h3 bold{
+			font-size: 5vw;
+		}
 	background-image { display: none; }
 	    }
 }
