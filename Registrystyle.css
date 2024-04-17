@@ -193,14 +193,22 @@ font-size:3vw;
 padding: 0;
 }
 
-ul {
-	text-align:left;
-	margin-left: 75px;
-	list-style-type: none;
-	padding: 0px;	
-	margin-right: 75vw; 
-	line-height: 110%;
-}
+	ul{
+		font-family: Manrope;
+		line-height: 100%;
+		padding: 0;
+		margin-left: 0px;
+		margin-right: 0px;
+    	list-style-type: none;
+		text-align: center;
+		font-size: 2vw;
+		top: 0px;
+		left:  1px;
+		right: 1px;
+		line-height: 140%;
+	}
+
+
 mark span {
 	color:  white; 
 	background-color: #7f7f7f; 
