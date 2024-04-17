@@ -262,8 +262,12 @@ mark span {
 	padding-right: 5px;
 		font-size: 5.75vw;
 		text-align: center;
-			color: #1d453c;
+		color: #1d453c;
 	}
+	    h2 img {
+        width: 32px;
+        height: 32px;
+    }
 	ul{
 		font-family: Manrope;
 		line-height: 100%;
