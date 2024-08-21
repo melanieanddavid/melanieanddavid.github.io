@@ -340,9 +340,8 @@ display:none;
 
     /* Adjust lightbox images on small screens */
     .lightbox img {
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain; /* Maintain aspect ratio without squashing */
+        max-width: 120%;
+        max-height: 120%;
 
     }
 
